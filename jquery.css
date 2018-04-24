@@ -1,0 +1,38 @@
+*{ 
+margin: 0px;
+padding: 0px;
+}
+#wrapper{
+    height: 2000px;
+    width: 970px;
+    background-color: grey;
+}
+
+.header{
+    height:100px;
+    background-color: goldenrod
+}
+
+.displayboxes{
+    height:200px;
+    background-color: deepskyblue;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.displayboxes button{
+    height: 30px;
+    background-color: darkred;
+    vertical-align: top;
+    
+}
+
+.displayboxes h1{
+    
+}
+.boom{
+    color: yellow;
+}
+span{
+    font-weight: bolder; 
+}
