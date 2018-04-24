@@ -38,10 +38,25 @@ $(document).ready(function(){
 		$("p").addClass("boom");
 	})
 	$(".before").click(function(){ //needs some fixing and messing with 
-		$("p").before("BEFORE the <p> tags");
+		$(".before_element").before("STUFF");
 	})
 	$(".after").click(function(){ //needs some fixing and messing with
-		$("p").after("AFTER the <p> tags");
+		$(".after_element").after("STUFF");
 	})
+	$(".append").click(function (){
+		$(".stuff").append("STUFF");
+	})
+	// $(".html").click(function(){
+	// 	$(".html").html("Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.");
+	// })
+	// $( "input" ).change(function(){
+ //    var $input = $( this );
+ //    	$( "p" ).html( ".attr( 'checked' ): <b>" + $input.attr( "checked" ) + "</b><br>" +
+ //      	".prop( 'checked' ): <b>" + $input.prop( "checked" ) + "</b><br>" +
+ //      	".is( ':checked' ): <b>" + $input.is( ":checked" ) + "</b>" );
+ 	$( "input" ).keyup(function() {
+    	var value = $( this ).val();
+    	$( ".hidden_text" ).text( value );
+  	}).keyup();
 })
 

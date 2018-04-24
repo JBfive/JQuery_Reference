@@ -3,31 +3,34 @@ margin: 0px;
 padding: 0px;
 }
 #wrapper{
-    height: 2000px;
     width: 970px;
     background-color: grey;
 }
 
 .header{
+    text-align: center;
     height:100px;
-    background-color: goldenrod
+    background-color: gold;
 }
 
 .displayboxes{
-    height:200px;
+    height:130px;
     background-color: deepskyblue;
     margin-top: 10px;
     text-align: center;
+    border: 2px solid black;
 }
 
 .displayboxes button{
-    height: 30px;
+    height: 40px;
+    width: 100px;
     background-color: darkred;
     vertical-align: top;
-    
-}
+    border-radius: 8px;
+    font-size: 14px;
+    border: 2px solid black;
+    display: inline-block;
 
-.displayboxes h1{
     
 }
 .boom{

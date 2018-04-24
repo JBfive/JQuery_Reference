@@ -11,7 +11,9 @@
 </head>
 <body>
     <div id="wrapper">
-        <div class="header"></div> 
+        <div class="header">
+            <h1>JQuery Reference with Buttons</h1>
+        </div> 
         <div class="displayboxes">
             <button class="click">Click!</button>
             <h1>.click</h1>
@@ -71,12 +73,14 @@
             <button class="before">Before</button>
             <h1>.before</h1>
             <p>Insert content, specified by the parameter, <span>BEFORE</span> each element in the set of matched elements.</p>
+            <p class="before_element">Stuff goes before this <span>ELEMENT</span>!</p>
         </div> 
         <!-- needs some fixing and messing with -->
         <div class="displayboxes">        
             <button class="after">After</button>
             <h1>.after</h1>
             <p>Insert content, specified by the parameter, <span>AFTER</span> each element in the set of matched elements.</p>
+            <p class="after_element">Stuff goes after this <span>ELEMENT</span>!</p>
         </div> 
         
 
@@ -87,21 +91,26 @@
             <button class="append">Append</button>
             <h1>.append</h1>
             <p>Insert content, specified by the parameter, to the end of each element in the set of matched elements.</p>
+            <p class="stuff"> Stuff will go over there ------>    </p>
         </div> 
         <div class="displayboxes">
             <button class="html">HTML</button>
             <h1>.html</h1>
-            <p>Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.</p>
+            <p></p> 
         </div> 
         <div class="displayboxes">
             <button class="attr">ATTR</button>
             <h1>.attr</h1>
             <p>Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.</p>
+            <input id="check1" type="checkbox" checked="checked">
+            <label for="check1">Check me</label>
         </div> 
         <div class="displayboxes">
             <button class="val">Val</button>
             <h1>.val</h1>
             <p>Get the current value of the first element in the set of matched elements or set the value of every matched element.</p>
+            <input type="text" value="some text">
+            <p class="hidden_text"></p>
         </div>       
     </div>
 </body>
